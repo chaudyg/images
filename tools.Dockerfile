@@ -1,3 +1,3 @@
-FROM alpine:3.13.5
+FROM alpine:3.12
 WORKDIR /opt/
 RUN apk add --no-cache curl bind-tools jq
